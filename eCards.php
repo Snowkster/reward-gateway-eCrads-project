@@ -14,7 +14,7 @@
 			mysqli_stmt_bind_param($stmt, "ssssss", $cardName, $cardCategory, $cardPrice, $address, $description, $cardImg);
 			mysqli_stmt_execute($stmt);
 			mysqli_stmt_close($stmt);
- }  
+ };
  ?>
 	<section className="signup-form">
 		<?php
